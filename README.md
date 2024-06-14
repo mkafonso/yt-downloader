@@ -33,5 +33,13 @@ Usuários do macOS podem executar diretamente o executável localizado em `src/s
 cd src/scripts/dist
 chmod +x main
 ./main
+```
 
---- 
+---![Screen Shot 2024-06-14 at 12 42 38](https://github.com/mkafonso/yt-downloader/assets/73212666/20d9edfc-a132-47cb-a5d0-4836ef23d9e3)
+
+![Screen Shot 2024-06-14 at 12 42 49](https://github.com/mkafonso/yt-downloader/assets/73212666/0e43c665-1eb5-4d6d-8e49-b8400e61c217)
+
+
+
+
+
