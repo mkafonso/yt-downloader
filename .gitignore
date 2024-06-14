@@ -1,3 +1,15 @@
 challenge.md
 
 __pycache__
+
+bin
+
+lib
+
+*.cfg
+
+dist
+
+build
+
+main.spec

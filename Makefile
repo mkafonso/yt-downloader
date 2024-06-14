@@ -1,7 +1,17 @@
 run:
-	python3.9 src/main.py
+	python src/main.py
 
 install:
-	pip3.11 install -r requirements.txt
+	pip install -r requirements.txt
 
-.PHONY: install run
+mac:
+	@echo "Gerando executável para macOS..."
+	@cd src/scripts && ./mac_build.sh
+	@echo "Executável para macOS gerado com sucesso!"
+
+windows:
+	@echo "Gerando executável para Windows..."
+	@cd src/scripts && ./windows_build.bat
+	@echo "Executável para Windows gerado com sucesso!"
+
+.PHONY: install run mac windows

@@ -1,7 +1,7 @@
 import tkinter as tk
-from gui.youtube_downloader_app import YouTubeDownloaderApp
+from ui.initial_screen import InitialScreen
 
 if __name__ == "__main__":
     root = tk.Tk()
-    app = YouTubeDownloaderApp(root)
+    app = InitialScreen(root)
     root.mainloop()
